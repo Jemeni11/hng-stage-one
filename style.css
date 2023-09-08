@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#name {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+#image > img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  height: 40vh;
+}
